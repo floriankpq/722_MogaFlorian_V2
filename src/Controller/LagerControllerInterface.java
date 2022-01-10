@@ -9,7 +9,5 @@ import java.util.List;
 
 public interface LagerControllerInterface {
 
-    Lager addLager(LocalDate datum, List<Pair<Produkt, Integer>> produkteMenge);
-
-    Lager 
+    void writeUpdate(LocalDate datum, Pair<Produkt, Integer> produkteMenge);
 }
